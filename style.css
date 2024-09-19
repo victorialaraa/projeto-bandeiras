@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400&display=swap);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #c6c4d5, #efe2bb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    letter-spacing: 4px;
+}
+
+.flagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.flag {
+    
+    background-color: #a6b6ce;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(96, 96, 91, 0.5);
+    margin: 10px;
+    padding: 23px;
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 221, 217, 0.803);
+    border-radius: 10%;
+    width: 180px;
+    height: 120px;   
+}
+
+.imgContainer img {
+    max-width: 60%;
+    display: flex;
+}
+
+.name{
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.openModalBtn {
+    background-color: #868383;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
