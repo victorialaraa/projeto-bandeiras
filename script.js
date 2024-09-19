@@ -27,7 +27,7 @@ function createFlagCard(flag) {
         <img src="${flag.flags.png}" alt="imagem">
     </div>
     <div class="info">
-        <h3 class="name">${flag.name.common}</h3>
+        <h3 class="name">bandeira: ${flag.name.common}</h3>
     </div>
 
     <button class="openModalBtn" data-target="${uniqueId}">Description</button>
